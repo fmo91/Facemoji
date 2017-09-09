@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C0830F1F64B67700636E33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0830E1F64B67700636E33 /* AppDelegate.swift */; };
+		18C083111F64B67700636E33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C083101F64B67700636E33 /* ViewController.swift */; };
+		18C083141F64B67700636E33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C083121F64B67700636E33 /* Main.storyboard */; };
+		18C083161F64B67700636E33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C083151F64B67700636E33 /* Assets.xcassets */; };
+		18C083191F64B67700636E33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C083171F64B67700636E33 /* LaunchScreen.storyboard */; };
+		18C083241F64B67800636E33 /* FacemojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C083231F64B67800636E33 /* FacemojiTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18C083201F64B67800636E33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C083031F64B67700636E33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C0830A1F64B67700636E33;
+			remoteInfo = Facemoji;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18C0830B1F64B67700636E33 /* Facemoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facemoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C0830E1F64B67700636E33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18C083101F64B67700636E33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18C083131F64B67700636E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18C083151F64B67700636E33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C083181F64B67700636E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C0831A1F64B67700636E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C0831F1F64B67800636E33 /* FacemojiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacemojiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C083231F64B67800636E33 /* FacemojiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacemojiTests.swift; sourceTree = "<group>"; };
+		18C083251F64B67800636E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C083081F64B67700636E33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C0831C1F64B67800636E33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C083021F64B67700636E33 = {
+			isa = PBXGroup;
+			children = (
+				18C0830D1F64B67700636E33 /* Facemoji */,
+				18C083221F64B67800636E33 /* FacemojiTests */,
+				18C0830C1F64B67700636E33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18C0830C1F64B67700636E33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C0830B1F64B67700636E33 /* Facemoji.app */,
+				18C0831F1F64B67800636E33 /* FacemojiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C0830D1F64B67700636E33 /* Facemoji */ = {
+			isa = PBXGroup;
+			children = (
+				18C0830E1F64B67700636E33 /* AppDelegate.swift */,
+				18C083101F64B67700636E33 /* ViewController.swift */,
+				18C083121F64B67700636E33 /* Main.storyboard */,
+				18C083151F64B67700636E33 /* Assets.xcassets */,
+				18C083171F64B67700636E33 /* LaunchScreen.storyboard */,
+				18C0831A1F64B67700636E33 /* Info.plist */,
+			);
+			path = Facemoji;
+			sourceTree = "<group>";
+		};
+		18C083221F64B67800636E33 /* FacemojiTests */ = {
+			isa = PBXGroup;
+			children = (
+				18C083231F64B67800636E33 /* FacemojiTests.swift */,
+				18C083251F64B67800636E33 /* Info.plist */,
+			);
+			path = FacemojiTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C0830A1F64B67700636E33 /* Facemoji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C083281F64B67800636E33 /* Build configuration list for PBXNativeTarget "Facemoji" */;
+			buildPhases = (
+				18C083071F64B67700636E33 /* Sources */,
+				18C083081F64B67700636E33 /* Frameworks */,
+				18C083091F64B67700636E33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Facemoji;
+			productName = Facemoji;
+			productReference = 18C0830B1F64B67700636E33 /* Facemoji.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18C0831E1F64B67800636E33 /* FacemojiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C0832B1F64B67800636E33 /* Build configuration list for PBXNativeTarget "FacemojiTests" */;
+			buildPhases = (
+				18C0831B1F64B67800636E33 /* Sources */,
+				18C0831C1F64B67800636E33 /* Frameworks */,
+				18C0831D1F64B67800636E33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C083211F64B67800636E33 /* PBXTargetDependency */,
+			);
+			name = FacemojiTests;
+			productName = FacemojiTests;
+			productReference = 18C0831F1F64B67800636E33 /* FacemojiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C083031F64B67700636E33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Fernando Ortiz";
+				TargetAttributes = {
+					18C0830A1F64B67700636E33 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = KNBYWGK7M7;
+						ProvisioningStyle = Automatic;
+					};
+					18C0831E1F64B67800636E33 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = KNBYWGK7M7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18C0830A1F64B67700636E33;
+					};
+				};
+			};
+			buildConfigurationList = 18C083061F64B67700636E33 /* Build configuration list for PBXProject "Facemoji" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C083021F64B67700636E33;
+			productRefGroup = 18C0830C1F64B67700636E33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C0830A1F64B67700636E33 /* Facemoji */,
+				18C0831E1F64B67800636E33 /* FacemojiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C083091F64B67700636E33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C083191F64B67700636E33 /* LaunchScreen.storyboard in Resources */,
+				18C083161F64B67700636E33 /* Assets.xcassets in Resources */,
+				18C083141F64B67700636E33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C0831D1F64B67800636E33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C083071F64B67700636E33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C083111F64B67700636E33 /* ViewController.swift in Sources */,
+				18C0830F1F64B67700636E33 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C0831B1F64B67800636E33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C083241F64B67800636E33 /* FacemojiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18C083211F64B67800636E33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C0830A1F64B67700636E33 /* Facemoji */;
+			targetProxy = 18C083201F64B67800636E33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18C083121F64B67700636E33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C083131F64B67700636E33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18C083171F64B67700636E33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C083181F64B67700636E33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C083261F64B67800636E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18C083271F64B67800636E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C083291F64B67800636E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KNBYWGK7M7;
+				INFOPLIST_FILE = Facemoji/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmo.Facemoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18C0832A1F64B67800636E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KNBYWGK7M7;
+				INFOPLIST_FILE = Facemoji/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmo.Facemoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		18C0832C1F64B67800636E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KNBYWGK7M7;
+				INFOPLIST_FILE = FacemojiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmo.FacemojiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Facemoji.app/Facemoji";
+			};
+			name = Debug;
+		};
+		18C0832D1F64B67800636E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KNBYWGK7M7;
+				INFOPLIST_FILE = FacemojiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmo.FacemojiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Facemoji.app/Facemoji";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C083061F64B67700636E33 /* Build configuration list for PBXProject "Facemoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C083261F64B67800636E33 /* Debug */,
+				18C083271F64B67800636E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C083281F64B67800636E33 /* Build configuration list for PBXNativeTarget "Facemoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C083291F64B67800636E33 /* Debug */,
+				18C0832A1F64B67800636E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18C0832B1F64B67800636E33 /* Build configuration list for PBXNativeTarget "FacemojiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C0832C1F64B67800636E33 /* Debug */,
+				18C0832D1F64B67800636E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C083031F64B67700636E33 /* Project object */;
+}
